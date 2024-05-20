@@ -54,7 +54,7 @@ class Users extends Component
                 $user->delete();
             }
             $this->closeDelete();
-            session()->flash('success', 'Record deleted successfully!!');
+            session()->flash('success', 'Record deleted successfully!!!');
         } catch (\Exception $ex) {
             session()->flash('success', 'Something goes wrong!!');
         }
